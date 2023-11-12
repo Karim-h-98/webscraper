@@ -20,19 +20,10 @@ lottie_coding = load_lottieurl("https://lottie.host/1112f618-f3f7-4ed5-8bc7-5315
 im = Image.open("logo.jpeg")
 st.set_page_config(
     page_title="Find your bayt",
-    page_icon=im,
     layout="wide",
     initial_sidebar_state="expanded")
 
-hide_st_style = """
-<style>
-#MainMenu {visibility: hidden;}
-header{visibility: hidden;}
-footer {visibility: hidden;}
-</style>
 
-"""
-st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # ---Side-Bar----
 
