@@ -193,7 +193,7 @@ map = px.scatter_mapbox(filtered_data, lat="Latitude", lon="Longitude", opacity=
                         text='bedrooms',
                         hover_name='locations')
 
-map.update_layout(mapbox_style="open-street-map") 
+map.update_layout(mapbox_style="basic") 
 map.update_layout(margin={"r": 80, "t": 80, "l": 80, "b": 80})
 map_container = st.container()
 with map_container:
